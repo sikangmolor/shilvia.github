@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-	  <title>Nth~</title>
+	  <title>special for you, babe</title>
 	  <meta charset="utf-8">
 	  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
 	  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
@@ -94,7 +94,6 @@
 	  		transform: translate(-50%,0%);
 	  		text-align: center;
 	  		font-size: 15pt;
-	  		text-shadow: 0px 0px 10px #000;
 	  		z-index: 2;
 	  	}
 	  	.kontrol{
@@ -159,33 +158,33 @@
   			bottom: -150px;
   			transition: all 1s ease;
   		}
-  		.kotak li:nth-child(1){
+  		.kotak li:sfy-child(1){
   			left: 86%;
   			width: 80px;
   			height: 80px;
   			animation-delay: 0s;
   		}
-  		.kotak li:nth-child(2){
+  		.kotak li:sfy-child(2){
   			left: 12%;
   			width: 30px;
   			height: 30px;
   			animation-delay: 1.5s;
   			animation-duration: 10s;
   		}
-  		.kotak li:nth-child(3){
+  		.kotak li:sfy-child(3){
   			left: 70%;
   			width: 100px;
   			height: 100px;
   			animation-delay: 5.5s;
   		}
-  		.kotak li:nth-child(4){
+  		.kotak li:sfy-child(4){
   			left: 42%;
   			width: 150px;
   			height: 150px;
   			animation-delay: 0s;
   			animation-duration: 15s; 
   		}
-  		.kotak li:nth-child(5){
+  		.kotak li:sfy-child(5){
   			left: 15%;
   			width: 110px;
   			height: 110px;
@@ -201,7 +200,7 @@
 	  		transform: translate(-50%,50%) scale(0);
 	  		transition: 3s all ease;
   		}
-  		.bulat span:nth-child(1){
+  		.bulat span:sfy-child(1){
   			position: absolute;
   			top: 0;
   			left: 0;
@@ -212,7 +211,7 @@
   			transition: 0.5s;
   			animation: animate2 6s linear infinite;
   		}
-  		.bulat span:nth-child(2){
+  		.bulat span:sfy-child(2){
   			position: absolute;
   			top: 0;
   			left: 0;
@@ -223,7 +222,7 @@
   			transition: 0.5s;
   			animation: animate3 4s linear infinite;
   		}
-  		.bulat span:nth-child(3){
+  		.bulat span:sfy-child(3){
   			position: absolute;
   			top: 0;
   			left: 0;
@@ -383,8 +382,8 @@
 				00:00:00
 			</div>
 			<div class="ucapan" id="quote"></div>
-			<div class="note">ngeng</div>
-			<div class="pengembang">AgusFirman7</div>
+			<div class="note">i love u</div>
+			<div class="pengembang">sikangmolor</div>
 		</div>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
@@ -497,7 +496,7 @@
 				gaming=false;
 				manual();
 			}
-			function bro(){
+			function love(){
 				namaku = $(".pengembang").text();
 			    var hex, i;
 
@@ -512,10 +511,10 @@
 			}
 			function specialEffects(){
 				if(localStorage.getItem("manualColor")=="#4c1130"){
-					setTimeout(function() { createNote("Kmu mau nga jadi pacar aku ?"); }, 5000);
+					setTimeout(function() { createNote("hi babe, are you happy? ^^"); }, 5000);
 				}
 				else if(localStorage.getItem("manualColor")=="#000000"){
-					setTimeout(function() { createNote("Jadian Yuk, Muehehehe :v"); }, 5000);
+					setTimeout(function() { createNote("i love you <3"); }, 5000);
 				}
 			}
 			function createNote(isi){
@@ -849,7 +848,7 @@
 				console.log('debug');
 			}
 
-			var txt = 'Halo Nth ku sayang';
+			var txt = 'hai sayangku';
 			var txt2 = 'txt';
 
 			function checkTime(i) {
@@ -873,43 +872,43 @@
 				S=s;
 
 				if (H<5){
-					txt='Have a Good Night Honey :*';
+					txt='have a good night, Dylan:*';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<9){
-					txt='Good Morning Honey :)';
+					txt='good morning sayang ^^';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<12){
-					txt='Be Happy Today Beb :*';
+					txt='be happy today, babe:*';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<16){
-					txt='Good Afternoon Honey :)';
+					txt='good afternoon my love';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<19){
-					txt='Good Afternoon Beb, Take a Rest :)';
+					txt='good afternoon babe, take a rest :) ';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<23){
-					txt='Good Evening Sweetie :*';
+					txt='good evening :*';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
 				}
 				else if(H<=24){
-					txt='Time to Sleep, Good Night, Have a nice dream Honey :*';
+					txt='time to sleep, good night, have a nice dream babe:*';
 					if(txt != txt2 && !starting)
 						document.getElementById("quote").innerHTML = txt;
 					txt2=txt;
@@ -978,52 +977,52 @@
 
 			const quotes = [
 			  {
-			    "quote": "Jauhi mantan, Dekati aku, Mantan masa lalumu, Kalo aku masa depanmu",
-			    "source": "Agus Firmansyah"
+			    "quote": "every cell in my body is telling me that you are my happily ever after",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Please dont leave me, Because I Love You",
-			    "source": "Agus Firmansyah"
+			    "quote": "please dont leave me, because i love you so much",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Selamat Beraktivitas Sayangku :* ",
-			    "source": "Agus Firmansyah"
+			    "quote": "i love you not only for what you are, but for what i am when i am with you ",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "I Miss Someone",
-			    "source": "Agus Firmansyah"
+			    "quote": "i miss you",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "believe me, I only love you, nobody else",
-			    "source": "Agus Firmansyah"
+			    "quote": "believe me, i only love you, nobody else",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Every failure, rejection, betrayal should be the reason for you to come back stronger in life by working on goals and achiving them",
-			    "source": "Agus Firmansyah"
+			    "quote": "every failure, rejection, betrayal should be the reason for us to come back stronger in life by working on goals and achiving them together",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "I Love You 4 Ever 'Someone' ",
-			    "source": "Agus Firmansyah"
+			    "quote": "i love you 4ever 'Dylan' ",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Heii, Do You Love Me?",
-			    "source": "Agus Firmansyah"
+			    "quote": "someone who loves you so much, make you love yourself",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "People doesn't want to end their life, they just wanted to end the pain",
-			    "source": "Agus Firmansyah"
+			    "quote": "i'll always love you like it's the beginning",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Need someone to talk about life, but sitting alone is much better",
-			    "source": "Agus Firmansyah"
+			    "quote": "i need vitamin U",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Seorang bahagia bukan karena semua benar dalam hidupnya, tapi sikap terhadap hidupnya yang benar",
-			    "source": "Agus Firmansyah"
+			    "quote": "thank u for being mine",
+			    "source": "Shilvia"
 			  },
 			  {
-			    "quote": "Jika hari ini harus lebih baik darpada hari kemarin dan hari esok lebih baik daripada hari ini maka kelahiranmu adalah hari terburuk yang pernah ada",
-			    "source": "Agus Firmansyah"
+			    "quote": "you make my heart smile",
+			    "source": "Shilvia"
 			  },
 			]
 			setInterval(randomQuote, 60000);
